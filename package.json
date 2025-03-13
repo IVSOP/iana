@@ -27,6 +27,12 @@
                 "path": "./themes/juliana.json"
             }
         ]
+    },
+    "scripts": {
+        "build": "gulp"
+    },
+    "dependencies": {
+        "gulp": "^5.0.0",
+        "gulp-exports2json": "^0.1.1"
     }
 }
-
