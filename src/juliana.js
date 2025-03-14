@@ -671,6 +671,8 @@ module.exports = {
         boolean: {
             fontStyle: "italic",
         },
+        selfTypeKeyword: yellow0,
+        selfKeyword: red0,
     },
 };
 
