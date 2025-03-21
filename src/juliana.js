@@ -43,6 +43,8 @@ base0 = gray1; // "#343D46";
 base1 = base0; // "#23292e";
 base2 = "#1d1e22";
 
+cyan0 = "#5FB3B3";
+
 // exportable json via `gulp`
 module.exports = {
     $chema: "vscode://schemas/color-theme",
@@ -673,6 +675,9 @@ module.exports = {
         },
         selfTypeKeyword: yellow0,
         selfKeyword: red0,
+        decorator: cyan0,
+        deriveHelper: blue0,
+        enumMember: lightBlue1,
     },
 };
 
