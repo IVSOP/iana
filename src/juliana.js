@@ -8,6 +8,7 @@ highlight2 = "#d0f4ff07";
 shadow0 = "#00000070";
 shadow1 = "#00000040";
 
+white = "#FFFFFF"
 white0 = "#ffffffdd";
 white1 = "#ffffff70";
 white2 = "#ffffff30";
@@ -95,10 +96,10 @@ module.exports = {
 
         // LIST AND TREES - Colors for list and trees like the File Explorer. An active list/tree has keyboard focus, an inactive does not.
         "list.activeSelectionBackground": highlight1,
-        "list.activeSelectionForeground": white0,
+        "list.activeSelectionForeground": white,
         "list.inactiveSelectionBackground": highlight2,
-        "list.inactiveSelectionForeground": white0,
-        "list.hoverForeground": white0,
+        "list.inactiveSelectionForeground": white,
+        "list.hoverForeground": white,
         "list.focusForeground": white0,
         "list.focusBackground": highlight1,
         "list.hoverBackground": highlight2,
@@ -106,6 +107,8 @@ module.exports = {
         "list.highlightForeground": white0,
         "list.errorForeground": red0,
         "list.warningForeground": yellow0,
+        // "list.focusOutline": white0,
+        // "list.inactiveFocusOutline": white0,
 
         // ACTIVITY BAR - The Activity Bar is displayed either on the far left or right of the workbench and allows fast switching between views of the Side Bar
         "activityBar.background": base1,
@@ -132,14 +135,14 @@ module.exports = {
         "tab.activeBackground": base0,
         "tab.activeForeground": white0,
         "tab.border": white3,
-        "tab.activeBorder": base0,
+        "tab.activeBorder": white0,
         "tab.unfocusedActiveBorder": base0,
         "tab.inactiveBackground": highlight2,
         "tab.inactiveForeground": white1,
         "tab.unfocusedActiveForeground": white1,
         "tab.unfocusedInactiveForeground": white1,
 
-        // EDITOR COLOR - The most prominent editor colors are the token colors used for syntax highlighting and are base0d on the language grammar installed.
+        // EDITOR COLOR - The most prominent editor colors are the token colors used for syntax highlighting and are based on the language grammar installed.
         "editor.background": base0,
         "editor.foreground": white0,
 
