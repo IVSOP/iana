@@ -1,4 +1,9 @@
-.vscode/**
-.vscode-test/**
-.gitignore
-vsc-extension-quickstart.md
+node_modules/
+gulpfile.js
+src/
+
+.vscode/
+.git*
+*.vsix
+*.log
+

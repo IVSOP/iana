@@ -1,38 +1,43 @@
 {
-    "name": "vscode-juliana-custom",
-    "displayName": "Juliana Custom",
-    "description": "A complete color theme for VS Code based on Sublime Text's Mariana Syntax and Adaptive UI",
-    "version": "0.0.1",
-    "publisher": "IVSOP",
-    "repository": "https://github.com/IVSOP/vscode-juliana-custom",
-    "engines": {
-        "vscode": "^1.23.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "keywords": [
-        "Sublime Text",
-        "Mariana",
-        "Adaptive UI",
-        "Color Theme",
-        "Theme"
-    ],
-    "icon": "icon.png",
-    "contributes": {
-        "themes": [
-            {
-                "label": "Juliana",
-                "uiTheme": "vs-dark",
-                "path": "./themes/juliana.json"
-            }
-        ]
-    },
-    "scripts": {
-        "build": "gulp"
-    },
-    "dependencies": {
-        "gulp": "^5.0.0",
-        "gulp-exports2json": "^0.1.1"
-    }
+	"name": "vscode-juliana-custom",
+	"displayName": "Juliana Custom",
+	"description": "A complete color theme for VS Code based on Sublime Text's Mariana Syntax and Adaptive UI",
+	"version": "0.0.1",
+	"publisher": "IVSOP",
+	"repository": "https://github.com/IVSOP/vscode-juliana-custom",
+	"engines": {
+		"vscode": "^1.23.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"Sublime Text",
+		"Mariana",
+		"Adaptive UI",
+		"Color Theme",
+		"Theme"
+	],
+	"icon": "icon.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Juliana",
+				"uiTheme": "vs-dark",
+				"path": "./themes/juliana.json"
+			}
+		]
+	},
+	"scripts": {
+		"build": "gulp",
+		"package": "vsce package",
+        "install-extension": "code --install-extension vscode-juliana-custom-0.0.1.vsix"
+	},
+	"dependencies": {
+		"gulp": "^5.0.0",
+		"gulp-exports2json": "^0.1.1"
+	},
+	"__metadata": {
+		"size": 10324583
+	}
 }
