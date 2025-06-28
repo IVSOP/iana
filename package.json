@@ -22,9 +22,9 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Juliana",
+				"label": "Iana",
 				"uiTheme": "vs-dark",
-				"path": "./themes/juliana.json"
+				"path": "./themes/iana.json"
 			}
 		]
 	},
