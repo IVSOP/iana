@@ -31,7 +31,8 @@
 	"scripts": {
 		"build": "gulp",
 		"package": "vsce package",
-        "install-extension": "code --install-extension iana-0.0.1.vsix"
+        "install": "code --install-extension iana-0.0.1.vsix",
+        "publish": "cat token.txt && vsce publish"
 	},
 	"dependencies": {
 		"gulp": "^5.0.0",

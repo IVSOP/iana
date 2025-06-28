@@ -6,4 +6,6 @@ src/
 .git*
 *.vsix
 *.log
-
+icon.svg
+vsc-extension-quickstart.md
+token.txt
