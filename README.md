@@ -5,4 +5,4 @@ This theme uses language-specific semantics based on LSP classification. If no L
 
 ![Screenshot of some code](https://raw.githubusercontent.com/ivsop/iana/master/screenshot.png)
 
-`https://github.com/ivsop/iana`
+![https://github.com/ivsop/iana](https://github.com/ivsop/iana)
