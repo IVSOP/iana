@@ -1,10 +1,10 @@
 {
-	"name": "vscode-juliana-custom",
-	"displayName": "Juliana Custom",
-	"description": "A complete color theme for VS Code based on Sublime Text's Mariana Syntax and Adaptive UI",
+	"name": "iana",
+	"displayName": "Iana",
+	"description": "A color theme for VS Code based on Sublime Text's Mariana, forked from the Mariana Pro VS Code extension",
 	"version": "0.0.1",
 	"publisher": "IVSOP",
-	"repository": "https://github.com/IVSOP/vscode-juliana-custom",
+	"repository": "https://github.com/IVSOP/iana",
 	"engines": {
 		"vscode": "^1.23.0"
 	},
@@ -31,7 +31,7 @@
 	"scripts": {
 		"build": "gulp",
 		"package": "vsce package",
-        "install-extension": "code --install-extension vscode-juliana-custom-0.0.1.vsix"
+        "install-extension": "code --install-extension iana-0.0.1.vsix"
 	},
 	"dependencies": {
 		"gulp": "^5.0.0",
