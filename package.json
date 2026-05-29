@@ -2,7 +2,7 @@
 	"name": "iana",
 	"displayName": "Iana",
 	"description": "A color theme for VS Code based on Sublime Text's Mariana, forked from the Mariana Pro VS Code extension",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"publisher": "IVSOP",
 	"repository": "https://github.com/IVSOP/iana",
 	"engines": {
