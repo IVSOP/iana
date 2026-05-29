@@ -327,6 +327,13 @@ module.exports = {
             },
         },
         {
+            name: "Elixir Atoms",
+            scope: ["constant.language.symbol.elixir", "constant.other.symbol.elixir", "constant.other.keyword.elixir"],
+            settings: {
+                foreground: white0,
+            },
+        },
+        {
             name: "Member Variable",
             scope: "variable.member",
             settings: {
